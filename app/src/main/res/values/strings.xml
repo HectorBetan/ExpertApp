@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ExpertApp</string>
+    <string name="perfil">Mi Perfil</string>
+    <string name="servicios">Servicios</string>
+    <string name="login">Login</string>
+    <string name="registro">Registro</string>
+    <string name="iniciarsesion">Iniciar Sesión</string>
+    <string name="msgcuenta">¿Aun  no tienes una cuenta?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="phone">Celular</string>
+    <string name="email">E-mail</string>
+    <string name="misservicios">Mis Servicios</string>
+    <string name="editarperfil">Editar Perfil</string>
+    <string name="editarservicio">Editar Servicio</string>
+    <string name="guardar">Guardar Cambios</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="queservicio">¿Que servicio necesitas?</string>
+    <string name="registrarservicio">Registrar Servicio</string>
+    <string name="nombreservicio">Nombre del servicio</string>
+    <string name="direccion">Dirección</string>
+    <string name="descripcion">Descripción</string>
+    <string name="eliminarservicio">Eliminar Servicio</string>
+    <string name="serviciosasociados">Estos son los servicios asociados a tu cuenta</string>
+    <string name="administrarservicio">Administrar Servicio</string>
+    <string name="verservicio">Ver Servicio</string>
+    <string name="solicitarservicio">Solicitar Servicio</string>
+</resources>
