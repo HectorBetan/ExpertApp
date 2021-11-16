@@ -51,6 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="25dp"
+                android:background="#EFF7FF"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -120,6 +121,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="125dp"
                             android:layout_margin="4dp"
+                            android:background="#F7FDFF"
+                            android:padding="10dp"
                             android:text="Descripción servicio" />
                     </LinearLayout>
                 </ScrollView>
@@ -129,7 +132,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="@string/administrarservicio" />
+                    android:backgroundTint="#88D9FF"
+                    android:text="@string/administrarservicio"
+                    android:textColor="#021A2C" />
             </LinearLayout>
 
             <Button
@@ -138,6 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="25dp"
+                android:backgroundTint="#144168"
                 android:text="@string/registrarservicio" />
         </LinearLayout>
     </ScrollView>

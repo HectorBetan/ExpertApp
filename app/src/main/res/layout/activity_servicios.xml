@@ -31,6 +31,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
+                android:background="#EFF7FF"
+                android:baselineAligned="false"
                 android:orientation="vertical"
                 android:padding="15dp">
 
@@ -41,7 +43,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/nombreservicio" />
+                    android:text="@string/nombreservicio"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView12"
@@ -50,7 +53,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="Categoria" />
+                    android:text="Categoria"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/textView13"
@@ -59,7 +63,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/phone" />
+                    android:text="@string/phone"
+                    android:textSize="20sp" />
 
                 <ScrollView
                     android:layout_width="match_parent"
@@ -68,7 +73,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
+                        android:layout_margin="5dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -76,6 +81,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="75dp"
                             android:layout_margin="4dp"
+                            android:background="#F7FDFF"
+                            android:padding="10dp"
                             android:text="@string/descripcion" />
                     </LinearLayout>
                 </ScrollView>
@@ -86,6 +93,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
+                    android:backgroundTint="#144168"
                     android:text="@string/verservicio" />
             </LinearLayout>
         </LinearLayout>

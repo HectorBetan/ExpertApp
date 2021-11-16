@@ -34,9 +34,12 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="15dp"
+                android:background="#DCF7FF"
+                android:backgroundTint="#DCF7FF"
                 android:ems="10"
                 android:hint="@string/nombreservicio"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:padding="10dp" />
 
             <EditText
                 android:id="@+id/editTextPhone3"
@@ -45,9 +48,12 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="15dp"
+                android:background="#DCF7FF"
+                android:backgroundTint="#DCF7FF"
                 android:ems="10"
                 android:hint="@string/phone"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:padding="10dp" />
 
             <EditText
                 android:id="@+id/editTextTextEmailAddress3"
@@ -56,9 +62,12 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="15dp"
+                android:background="#DCF7FF"
+                android:backgroundTint="#DCF7FF"
                 android:ems="10"
                 android:hint="@string/email"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName4"
@@ -67,9 +76,12 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="15dp"
+                android:background="#DCF7FF"
+                android:backgroundTint="#DCF7FF"
                 android:ems="10"
                 android:hint="@string/direccion"
-                android:inputType="textLongMessage" />
+                android:inputType="textLongMessage"
+                android:padding="10dp" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName7"
@@ -78,10 +90,13 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="15dp"
+                android:background="#DCF7FF"
+                android:backgroundTint="#DCF7FF"
                 android:ems="10"
                 android:gravity="top"
                 android:hint="@string/descripcion"
-                android:inputType="textLongMessage" />
+                android:inputType="textLongMessage"
+                android:padding="10dp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -99,12 +114,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="50dp"
+                        android:buttonTint="#2196F3"
                         android:text="RadioButton" />
 
                     <RadioButton
                         android:id="@+id/radioButton3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:buttonTint="#2196F3"
                         android:text="RadioButton" />
                 </TableRow>
 
@@ -118,12 +135,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="50dp"
+                        android:buttonTint="#2196F3"
                         android:text="RadioButton" />
 
                     <RadioButton
                         android:id="@+id/radioButton5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:buttonTint="#2196F3"
                         android:text="RadioButton" />
                 </TableRow>
 
@@ -135,7 +154,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="25dp"
-                android:text="@string/registrarservicio" />
+                android:backgroundTint="#144168"
+                android:text="@string/registrarservicio"
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 
