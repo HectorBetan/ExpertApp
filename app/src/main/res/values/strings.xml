@@ -7,7 +7,7 @@
     <string name="iniciarsesion">Iniciar Sesión</string>
     <string name="msgcuenta">¿Aun  no tienes una cuenta?</string>
     <string name="registrarse">Registrarse</string>
-    <string name="user">Usuario</string>
+    <string name="user">Nombre</string>
     <string name="password">Contraseña</string>
     <string name="phone">Celular</string>
     <string name="email">E-mail</string>

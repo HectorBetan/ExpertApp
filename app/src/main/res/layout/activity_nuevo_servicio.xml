@@ -28,7 +28,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/nombre_servicio"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginLeft="25dp"
@@ -42,7 +42,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editTextPhone3"
+                android:id="@+id/celular_servicio"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginLeft="25dp"
@@ -56,7 +56,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress3"
+                android:id="@+id/email_servicio"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginLeft="25dp"
@@ -70,7 +70,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/direccion_servicio"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginLeft="25dp"
@@ -84,7 +84,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName7"
+                android:id="@+id/descripcion_servicio"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
@@ -110,7 +110,7 @@
                     android:gravity="center">
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/categoria1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="50dp"
@@ -118,7 +118,7 @@
                         android:text="RadioButton" />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/categoria2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#2196F3"
@@ -131,7 +131,7 @@
                     android:gravity="center">
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/categoria3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="50dp"
@@ -139,7 +139,7 @@
                         android:text="RadioButton" />
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/categoria4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#2196F3"

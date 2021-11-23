@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="goToPerfil"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -19,10 +18,9 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/nombre_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nombre Usuario"
         android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold" />

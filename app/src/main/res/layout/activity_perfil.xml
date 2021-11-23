@@ -8,43 +8,30 @@
     tools:context=".Perfil">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/nombre_perfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Nombre Usuario"
         android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/cel_perfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="25dp"
-        android:text="Celular: "
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/email_perfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="25dp"
-        android:text="Dirección"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="25dp"
-        android:text="E-mail:"
         android:textSize="24sp" />
 
     <TableLayout
@@ -62,14 +49,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="25dp"
-                app:srcCompat="@drawable/albanil" />
+                android:onClick="goToMisServicios"
+                app:srcCompat="@drawable/misservicios" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="25dp"
-                app:srcCompat="@drawable/aseo" />
+                android:onClick="goToEditarPerfil"
+                app:srcCompat="@drawable/editarperfil" />
         </TableRow>
 
         <TableRow
@@ -82,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="25dp"
-                app:srcCompat="@drawable/plomeria" />
+                app:srcCompat="@drawable/eliminarcuenta" />
         </TableRow>
 
     </TableLayout>

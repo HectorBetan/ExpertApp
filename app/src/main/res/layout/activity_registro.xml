@@ -22,33 +22,37 @@
         app:drawableTopCompat="@drawable/logoexpertappsmall" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/nombre_main"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="5dp"
+        android:background="#DCF7FF"
+        android:backgroundTint="#DCF7FF"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/user"
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/cel_usuario"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="5dp"
+        android:background="#DCF7FF"
+        android:backgroundTint="#DCF7FF"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/phone"
         android:inputType="phone" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email_usuario"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="25dp"
@@ -56,26 +60,30 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="5dp"
         android:height="50dp"
+        android:background="#DCF7FF"
+        android:backgroundTint="#DCF7FF"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/password_usuario"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="5dp"
+        android:background="#DCF7FF"
+        android:backgroundTint="#DCF7FF"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
@@ -83,6 +91,7 @@
         android:backgroundTint="#08295A"
         android:padding="15dp"
         android:text="@string/registrarse"
+        android:onClick="registrar"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="20sp" />

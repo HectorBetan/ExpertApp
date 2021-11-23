@@ -77,6 +77,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="25dp"
-            android:text="@string/solicitarservicio" />
+            android:backgroundTint="#144168"
+            android:text="@string/solicitarservicio"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
